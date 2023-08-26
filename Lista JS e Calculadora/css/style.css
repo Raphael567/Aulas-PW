@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+}
+
+main{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.formulario{
+    display: flex;
+    margin-top: 30px;
+}
+
+form{
+    display: flex;
+    gap: 10px;
+}
+
+.submit_button{
+    margin-top: 17px;
+}
+
+.login_button{
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.messages{
+    margin-top: 30px;
+}
+
+.show_login{
+    margin-top: 30px;
+}
+
+.calc_button{
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+}
+
+.calc_button button{
+    width: 100px;
+}
+
+.title_name{
+    margin-bottom: 30px;
+}
+
+.input_name{
+    margin-bottom: 30px;
+}
+
+.input_prod{
+    margin-bottom: 20px;
+}
+
+.prod_button{
+    margin-bottom: 10px;
+}
+
+.lista_produto ul{
+    list-style: none;
+}
+
+.lista_produto li{
+    margin-bottom: 10px;
+}

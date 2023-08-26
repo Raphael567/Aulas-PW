@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/file.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h1>Introdução ao JavaScript</h1>
+    </div>
+    <main>
+        <section class="formulario">
+            <form>
+                <div class="email">
+                    <div class="correct_login">
+                        <p>Login</p>
+                    </div>
+                    <div class="email_input">
+                        <input type="text" placeholder="Insira seu e-mail" id="email">
+                    </div>
+                </div>
+                <div class="senha">
+                    <div class="correct_password">
+                        <p>123456</p>
+                    </div>
+                    <div class="password_input">
+                        <input type="password" placeholder="Insira sua senha" id="senha">
+                    </div>
+                </div>
+                <div class="submit_button">
+                    <input type="submit">
+                </div>
+            </form>
+            <div class="login_button">
+                <button onclick="login()">Fazer login</button>
+            </div>
+        </section>
+        <section class="messages">
+            <div class="login_message"></div>
+            <section class="show_login">
+                <div class="show_email"></div>
+                <div class="show_password"></div>
+            </section>
+        </section>
+        <section class="operacoes">
+            <div class="title">
+                <h3>Operações Simples Utilizando JS</h3>
+            </div>
+            <div class="calc_button">
+                <button onclick="somar()">Somar</button>
+            </div>
+            <div class="calc_button">
+                <button onclick="subtrair()">Subtrair</button>
+            </div>
+            <div class="calc_button">
+                <button onclick="multiplicar()">Multiplicar</button>
+            </div>
+            <div class="calc_button">
+                <button onclick="dividir()">Dividir</button>
+            </div>
+            <div class="calc_button">
+                <button onclick="potencia()">Potencia</button>
+            </div>
+            <div class="calc_button">
+                <button onclick="raiz()">Raiz</button>
+            </div>
+            <section class="messages">
+                <div class="resultado"></div>
+            </section>
+        </section>
+        <section class="user_name">
+            <div class="title_name">
+                <h1>Exemplo 3 - Pegando nome do usuário no próprio HTML</h1>
+            </div>
+            <div class="input_name">
+                <input type="text" id="frNome">
+            </div>
+            <div class="name_button">
+                <button onclick="nome()">Enviar</button>
+            </div>
+            <section class="messages">
+                <p id="exibeNome"></p>
+            </section>
+        </section>
+        <section class="lista_produto">
+            <div class="input_prod">
+                <input type="text" id="frmProd">
+            </div>
+            <div class="prod_button")>
+                <button onclick="produto()">Enviar</button>
+            </div>
+            <ul>
+                <li id="exibeProduto"></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
